@@ -25,6 +25,7 @@
 
         <TextView
             android:id="@+id/title"
+            style="@style/TextAppearance.Title"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -48,11 +49,12 @@
 
         <TextView
             android:id="@+id/subtitle"
+            style="@style/TextAppearance.Subtitle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="13dp"
-            android:textColor="#555555"
             android:text="@string/gdgs_are"
+            android:textColor="#555555"
             android:textSize="18sp"
             app:layout_constraintEnd_toStartOf="@id/end_grid"
             app:layout_constraintStart_toEndOf="@id/start_grid"
